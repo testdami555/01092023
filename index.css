@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul li{
@@ -64,6 +65,14 @@ header ul li a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+}
+
+#articulos article{
+    transition: 1s;
+}
+
+#articulos article:hover{
+    transform: scale(1.2);
 }
 
 #quienes{
