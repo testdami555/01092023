@@ -71,6 +71,22 @@ header ul li a{
     margin: 0 20%;
 }
 
-#quienes h2{
+#quienes h3{
     text-align: center;
+}
+
+@media (max-width:640px){
+    nav ul li,header ul li{
+        font-size: 12px;
+    }
+    header ul li a{
+        padding: 20px 10px;
+    }
+    #articulos{
+        flex-wrap: wrap;
+    }
+    #quienes{
+        width: 90%;
+        margin: 0 5%;
+    }
 }
