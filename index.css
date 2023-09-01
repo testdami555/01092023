@@ -48,6 +48,11 @@ nav ul li a{
     display: block;
     text-align: center;
     padding: 20px 0;
+    transition:1s;
+}
+
+nav ul li a:hover{
+    background-color: orange;
 }
 
 header ul li a{
