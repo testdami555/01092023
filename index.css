@@ -9,6 +9,7 @@ ul li{
 
 #contenedor{
     width: 100%;
+    min-width: 460px;
 }
 
 #contenedor > *{
@@ -28,6 +29,16 @@ header ul{
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+}
+
+#destacado{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#destacado h2{
+    color: orange;
+    transform: translateY(-90px);
 }
 
 nav ul{
@@ -97,5 +108,8 @@ header ul li a{
     #quienes{
         width: 90%;
         margin: 0 5%;
+    }
+    #destacado img{
+        width: 100%;
     }
 }
